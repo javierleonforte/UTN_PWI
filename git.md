@@ -6,3 +6,15 @@ Para dar seguimiento a los archivos con git usamos...
 
 Para que los archivos a los que git da seguimientos los VERSIONE, usamos... 
     git commit -m 'mensaje'
+
+Para renombrar la rama maestra a main...
+    git branch -m main
+
+Para agregar un origen remoto 
+    git remote add origin dirrecion-del-repo.git
+
+Para saber a que direccion remota esta conectada nuestro repo 
+    git remote -v
+
+Para subir el ultimo commit a la nube (repositorio remoto conectado)
+    git push -u origin main
