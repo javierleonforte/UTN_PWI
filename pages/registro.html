@@ -13,11 +13,26 @@
         <div>
             <!-- Label se usa para describir que debe ingresarse en un campo -->
             <label for="fullname">Nombre Completo:</label>
-            <input type="text" id="fullname">
+            <input type="text" id="fullname" placeholder="Michael Jackson">
         </div>
         <div>
             <label for="email">Ingresa tu correo electronico:</label>
-            <input type="email" id="email">
+            <input type="email" id="email" placeholder="ayuwoki@gmail.com">
+        </div>
+        <div>
+            <label for="pais">Selecciona tu pais:</label>
+            <select id="pais">
+                <option value="AR">Argentina</option>
+                <option value="CO">Colombia</option>
+                <option value="CL">Chile</option>
+                <option value="BR">Brasil</option>
+                <option value="VNZ">Venezuela</option>
+                <option value="0" selected disabled>No seleccionado</option>
+            </select>
+        </div>
+        <div>
+            <label for="description">Ingrese una descripcion:</label>
+            <textarea id="description" rows="10" cols="6"></textarea>
         </div>
 
         <button type="submit">Enviar</button>
